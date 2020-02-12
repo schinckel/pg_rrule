@@ -66,9 +66,11 @@ Example. Expand RRULE without timezone:
  cp pg_rrule.control /usr/share/postgresql/extension/
  cp sql/pg_rrule.sql /usr/share/postgresql/extension/pg_rrule--0.2.0.sql
  ```
- Simple install (OS X):
+ Simple install (macOS):
  ```sh
- #TODO
+ brew install libical
+ make
+ make install
  ```
  Install extension (Postgresql):
  ```sql
